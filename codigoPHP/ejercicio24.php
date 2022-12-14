@@ -172,19 +172,17 @@
                         print '<p style="color: red";>' . $aErrores['numericoOb'] . '</p>';
                     }
                     ?>
-                    <br>
-
-
                     <label>Numerico Opcional:
-                        <input type="text" name="numericoOp" value="<?php echo $_REQUEST["numericoOp"] ?? ''; ?>"/>
+                        <input type="text" name="numericoOp" value="<?php echo $_REQUEST["numericoOp"] ?? ''; ?>"/><?php
+                        if ($aErrores['numericoOb'] != null) {
+
+                            print '<p style="color: red";>' . $aErrores['numericoOp'] . '</p>';
+                        }
+                        ?>
+
                     </label>
 
-                    <?php
-                    if ($aErrores['numericoOb'] != null) {
 
-                        print '<p style="color: red";>' . $aErrores['numericoOp'] . '</p>';
-                    }
-                    ?>
                     <br>
 
                     <input type="submit" name="enviar" value="Enviar" />

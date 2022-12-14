@@ -287,14 +287,15 @@
                         mensaje correspondiente, pero las
                         respuestas que habíamos tecleado correctamente aparecerán en el formulario y no tendremos que volver a
                         teclearlas.</td>
-                    <td><a href="codigoPHP/ejercicio24.php"><img src="doc/play.png"></a></td>
-                    <td><a href="mostrarcodigo/muestraejercicio24.php"><img src="doc/php.png"></a></td>
-                </tr><!-- AQUÍ EL EJERCICIO 25 -->
-                <tr>
-                    <td>25. Trabajar en PlantillaFormulario.php mi plantilla para hacer formularios como churros.</td>
                     <td><a href="codigoPHP/ejercicio25.php"><img src="doc/play.png"></a></td>
                     <td><a href="mostrarcodigo/muestraejercicio25.php"><img src="doc/php.png"></a></td>
                 </tr>
+                <!-- AQUÍ EL EJERCICIO 25 -->
+<!--                <tr>
+                    <td>25. Trabajar en PlantillaFormulario.php mi plantilla para hacer formularios como churros.</td>
+                    <td><a href="codigoPHP/ejercicio25.php"><img src="doc/play.png"></a></td>
+                    <td><a href="mostrarcodigo/muestraejercicio25.php"><img src="doc/php.png"></a></td>
+                </tr>-->
                 <!-- AQUÍ EL EJERCICIO 26 
                 <tr>
                     <td>26. Probar la plantilla anterior desarrollando un formulario que recoja la temperatura y la presión
@@ -321,6 +322,11 @@
             </a>
 
             © Alejandro Otálvaro Marulanda
+            
+             <a href="https://github.com/alexotalvaro" target="_blank" style="text-decoration: none">
+                <img src="/doc/git.png" alt="git" onmouseover="this.width = 50;" onmouseout="this.width = 39;"
+                     width="39" title="GIT" class="icono_cv" />
+            </a>
 
             <a href="http://www.linkedin.com/in/alejandro-otálvaro-marulanda/" target="_blank"
                style="text-decoration: none">
